@@ -9,4 +9,6 @@ while (!["perdeu", "ganhou"].includes(jogo.buscarEstado())) {
     console.log(jogo.buscarDadosDoJogo());
 }
 
+
+
 console.log("você " + jogo.buscarEstado());
